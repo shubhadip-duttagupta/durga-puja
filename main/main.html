@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>শারদীয়া | Sharodia</title>
+
+    <meta name="description"
+          content="Sharodia - A Bengali Durga Puja experience with songs, pandals and festive memories.">
+
+
+    <!-- ================= GOOGLE FONTS ================= -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- ================= CSS ================= -->
+
+    <link rel="stylesheet"
+          href="main.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =================================================
+         BACKGROUND
+    ================================================== -->
+
+    <div class="bg-layer"
+         id="bgLayer">
+    </div>
+
+    <div class="bg-overlay">
+    </div>
+
+
+
+    <!-- =================================================
+         HEADER
+    ================================================== -->
+
+    <header class="top-header">
+
+
+        <!-- LOGO -->
+
+        <a href="#home"
+           class="brand">
+
+            <span class="brand-icon">
+                🪔
+            </span>
+
+            <span>
+
+                <strong>
+                    শারদীয়া
+                </strong>
+
+                <small>
+                    SHARODIA
+                </small>
+
+            </span>
+
+        </a>
+
+
+
+        <!-- MOBILE MENU BUTTON -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button">
+
+            ☰
+
+        </button>
+
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="nav"
+             id="nav">
+
+
+            <a href="#songs">
+                Songs
+            </a>
+
+
+            <a href="#map">
+                Map
+            </a>
+
+
+            <a href="#contact">
+                Contact
+            </a>
+
+
+            <a href="#about">
+                About
+            </a>
+
+
+        </nav>
+
+
+
+        <!-- CURRENT TIME -->
+
+        <div class="time-badge"
+             id="timeBadge">
+
+            Loading...
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- =================================================
+         MAIN
+    ================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero"
+                 id="home">
+
+
+            <div class="hero-content">
+
+
+                <p class="eyebrow">
+
+                    শারদ উৎসব • BENGALI PUJA EXPERIENCE
+
+                </p>
+
+
+
+                <h1>
+
+                    শুভ
+
+                    <span>
+                        শারদীয়া
+                    </span>
+
+                </h1>
+
+
+
+                <p class="hero-text">
+
+                    Puja, music, lights and the timeless
+                    streets of Bengal — all in one digital
+                    Sharodia experience.
+
+                </p>
+
+
+
+                <!-- HERO BUTTONS -->
+
+                <div class="hero-actions">
+
+
+                    <a href="#songs"
+                       class="primary-btn">
+
+                        🎵 Explore Songs
+
+                    </a>
+
+
+                    <a href="#map"
+                       class="glass-btn">
+
+                        📍 Pandal Route
+
+                    </a>
+
+
+                </div>
+
+
+
+                <!-- INFORMATION CARDS -->
+
+                <div class="hero-info">
+
+
+                    <div>
+
+                        <span>
+                            🌺
+                        </span>
+
+                        <b>
+                            Pujo
+                        </b>
+
+                        <small>
+                            Feels like home
+                        </small>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <span>
+                            🎶
+                        </span>
+
+                        <b>
+                            Music
+                        </b>
+
+                        <small>
+                            Festive melodies
+                        </small>
+
+                    </div>
+
+
+
+                    <div>
+
+                        <span>
+                            🪔
+                        </span>
+
+                        <b>
+                            Tradition
+                        </b>
+
+                        <small>
+                            Forever Bengali
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- SCROLL -->
+
+            <div class="hero-scroll">
+
+                <span>
+                    Scroll to explore
+                </span>
+
+                <i>
+                    ↓
+                </i>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             SONGS
+        ================================================== -->
+
+        <section class="section-card songs-section"
+                 id="songs">
+
+
+            <!-- SECTION TITLE -->
+
+            <div class="section-heading">
+
+
+                <div>
+
+
+                    <p class="eyebrow">
+
+                        AUDIO • শারদ সুর
+
+                    </p>
+
+
+
+                    <h2>
+
+                        Pujo Songs
+
+                    </h2>
+
+
+
+                    <p>
+
+                        Listen to the festive Durga Puja
+                        playlist.
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 MUSIC PLAYER LAYOUT
+            ================================================== -->
+
+            <div class="song-layout">
+
+
+
+                <!-- ===============================
+                     NOW PLAYING
+                ================================= -->
+
+                <div class="now-playing">
+
+
+                    <!-- VINYL -->
+
+                    <div class="now-playing-logo"
+                         id="vinyl">
+
+                        <img src="../image/logo.png"
+                             alt="Sharodia Logo">
+
+                    </div>
+
+
+
+                    <!-- LABEL -->
+
+                    <span class="now-label">
+
+                        NOW PLAYING
+
+                    </span>
+
+
+
+                    <!-- SONG TITLE -->
+
+                    <h3 id="nowTitle">
+
+                        Select a song
+
+                    </h3>
+
+
+
+                    <!-- ARTIST -->
+
+                    <p id="nowArtist">
+
+                        Sharodia • Durga Puja
+
+                    </p>
+
+
+
+                    <!-- ===============================
+                         PLAYER CONTROLS
+                    ================================= -->
+
+                    <div class="player-controls">
+
+
+                        <!-- PREVIOUS -->
+
+                        <button
+                            id="prevBtn"
+                            class="control-btn"
+                            type="button"
+                            title="Previous Song">
+
+                            ⏮
+
+                        </button>
+
+
+
+                        <!-- PLAY / PAUSE -->
+
+                        <button
+                            id="playBtn"
+                            class="control-btn main-control"
+                            type="button"
+                            title="Play">
+
+                            ▶
+
+                        </button>
+
+
+
+                        <!-- NEXT -->
+
+                        <button
+                            id="nextBtn"
+                            class="control-btn"
+                            type="button"
+                            title="Next Song">
+
+                            ⏭
+
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- ===============================
+                     SONG LIST
+                ================================= -->
+
+                <div class="song-list-wrapper">
+
+
+                    <div class="song-list"
+                         id="songList">
+
+
+                        <!--
+
+                            JavaScript will automatically
+                            put your FastAPI songs here.
+
+                        -->
+
+                        <div class="loading-songs">
+
+                            Loading Pujo Songs... 🎵
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             PUJA ROUTE
+        ================================================== -->
+
+        <section class="route-section" id="map">
+
+            <div class="section-heading light">
+                <div>
+                    <p class="eyebrow">PANDAL ROUTE • কলকাতা</p>
+                    <h2>Find Your Puja Route</h2>
+                    <p>Explore famous Puja pandals through Metro and important city stations.</p>
+                </div>
+            </div>
+
+            <div class="route-options">
+
+                <!-- METRO -->
+                <div class="route-box">
+                    <div class="route-box-heading">
+                        <span class="route-icon">🚇</span>
+                        <div>
+                            <span class="route-label">METRO</span>
+                            <h3>Kolkata Metro</h3>
+                            <p>Select a Metro line and discover Puja pandals near its stations.</p>
+                        </div>
+                    </div>
+
+                    <div class="line-selector">
+                        <button type="button" class="select-line-btn" id="selectLineBtn">
+                            <span>Select Metro Line</span>
+                            <span class="dropdown-arrow">▾</span>
+                        </button>
+
+                        <div class="line-menu" id="lineMenu">
+                            <button type="button" class="metro-line blue-line" data-line="blue"><span class="line-dot"></span><span>Blue Line</span></button>
+                            <button type="button" class="metro-line orange-line" data-line="orange"><span class="line-dot"></span><span>Orange Line</span></button>
+                            <button type="button" class="metro-line green-line" data-line="green"><span class="line-dot"></span><span>Green Line</span></button>
+                            <button type="button" class="metro-line purple-line" data-line="purple"><span class="line-dot"></span><span>Purple Line</span></button>
+                        </div>
+                    </div>
+
+                    <div class="station-area" id="metroStationArea">
+                        <div class="station-search">
+                            <span>🔎</span>
+                            <input type="text" id="metroSearch" placeholder="Search metro station..." autocomplete="off">
+                        </div>
+                        <div class="station-list" id="metroStationList">
+                            <p class="station-placeholder">Select a Metro line to see stations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IMPORTANT STATIONS -->
+                <div class="route-box">
+                    <div class="route-box-heading">
+                        <span class="route-icon">🚉</span>
+                        <div>
+                            <span class="route-label">STATIONS</span>
+                            <h3>Important Stations</h3>
+                            <p>Find Puja pandals around major railway and transport stations.</p>
+                        </div>
+                    </div>
+
+                    <div class="station-search">
+                        <span>🔎</span>
+                        <input type="text" id="importantStationSearch" placeholder="Search station..." autocomplete="off">
+                    </div>
+
+                    <div class="station-list" id="importantStationList"></div>
+                </div>
+            </div>
+
+            <!-- STATION POPUP -->
+            <div class="route-modal" id="routeModal">
+                <div class="route-modal-overlay"></div>
+                <div class="route-modal-card">
+                    <button type="button" class="route-modal-close" id="routeModalClose">×</button>
+                    <div class="modal-station-icon">🚇</div>
+                    <span class="route-label" id="modalStationType">METRO STATION</span>
+                    <h3 id="modalStationName">Station Name</h3>
+                    <p class="modal-subtitle">Famous Puja Pandals Nearby</p>
+                    <div class="pandal-list" id="modalPandalList"></div>
+                    <button type="button" class="map-button" id="modalMapButton">📍 View Location</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section class="section-card about-section"
+                 id="about">
+
+
+            <div class="about-grid">
+
+
+                <div>
+
+
+                    <p class="eyebrow">
+
+                        OUR STORY • আমাদের গল্প
+
+                    </p>
+
+
+
+                    <h2>
+
+                        More than a website.
+
+                        <br>
+
+                        <span>
+                            It's a Puja feeling.
+                        </span>
+
+                    </h2>
+
+
+                </div>
+
+
+
+                <div>
+
+
+                    <p>
+
+                        Sharodia is a digital celebration
+                        of Durga Puja — bringing together
+                        Bengali streets, pandals, music
+                        and memories.
+
+                        The background changes automatically
+                        through the day, so the website follows
+                        the same rhythm as a real Puja day.
+
+                    </p>
+
+
+
+                    <div class="feature-row">
+
+
+                        <span>
+                            🌅 Early Morning
+                        </span>
+
+
+                        <span>
+                            ☀️ Morning
+                        </span>
+
+
+                        <span>
+                            🌤 Afternoon
+                        </span>
+
+
+                        <span>
+                            🌆 Evening
+                        </span>
+
+
+                        <span>
+                            🌙 Midnight
+                        </span>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section class="contact-section"
+                 id="contact">
+
+
+            <div class="contact-inner">
+
+
+                <div>
+
+
+                    <p class="eyebrow">
+
+                        CONTACT • যোগাযোগ
+
+                    </p>
+
+
+
+                    <h2>
+
+                        Share the Puja spirit.
+
+                    </h2>
+
+
+
+                    <p>
+
+                        Have a pandal, song or Puja story
+                        to add? Send it our way.
+
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <form
+                    class="contact-form"
+                    id="contactForm">
+
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name"
+                        required>
+
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Email address"
+                        required>
+
+
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Your message..."
+                        required>
+                    </textarea>
+
+
+                    <button
+                        class="primary-btn"
+                        type="submit">
+
+                        Send Message ✨
+
+                    </button>
+
+
+                    <p
+                        class="form-status"
+                        id="formStatus">
+                    </p>
+
+
+                </form>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+
+        <div>
+
+
+            <strong>
+
+                শারদীয়া • Sharodia
+
+            </strong>
+
+
+            <span>
+
+                একসাথে উৎসব, একসাথে স্মৃতি।
+
+            </span>
+
+
+        </div>
+
+
+
+        <span>
+
+            Made with ❤️ for Durga Puja
+
+        </span>
+
+
+    </footer>
+
+
+
+    <!-- =================================================
+         JAVASCRIPT
+    ================================================== -->
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
