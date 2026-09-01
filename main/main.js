@@ -401,7 +401,7 @@ setInterval(
    6. MUSIC API
 ===================================================== */
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://durga-puja-backend-xl9o.onrender.com";
 
 
 let songs = [];
